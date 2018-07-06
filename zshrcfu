@@ -92,3 +92,5 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias e="emacsclient -t"
 alias ec="emacsclient -c"
+alias em="LC_CTYPE=zh_CN.UTF-8 emacsclient -nc -a"
+alias et="LC_CTYPE=zh_CN.UTF-8 emacsclient -t -a"
