@@ -94,3 +94,13 @@ alias e="emacsclient -t"
 alias ec="emacsclient -c"
 alias em="LC_CTYPE=zh_CN.UTF-8 emacsclient -nc"
 alias et="LC_CTYPE=zh_CN.UTF-8 emacsclient -t"
+alias pythonana="/anaconda3/bin/python"
+alias virtualenvana="/anaconda3/bin/virtualenv"
+
+# virtualenvwrapper path
+
+export WORKON_HOME=$HOME/.virtualenvs
+export PROJECT_HOME=$HOME/Devel
+export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3
+export VIRTUALENVWRAPPER_VIRTUALENV=/usr/local/bin/virtualenv
+source /usr/local/bin/virtualenvwrapper.sh
