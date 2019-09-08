@@ -97,6 +97,8 @@ alias et="LC_CTYPE=zh_CN.UTF-8 emacsclient -t"
 alias pythonana="/anaconda3/bin/python"
 alias virtualenvana="/anaconda3/bin/virtualenv"
 
+alias bfg="java -jar ~/Dropbox/sys/bfg-1.13.0.jar"
+
 # virtualenvwrapper path
 
 export WORKON_HOME=$HOME/.virtualenvs
